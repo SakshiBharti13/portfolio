@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Belanosima:wght@400;600;700&family=Dancing+Script&family=Poppins:wght@200;400;500;600;700;800;900&family=Roboto&display=swap');
+body{
+    overflow-x: hidden;
+	background: url(../image/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar{
+    font-family: 'Caprasimo', cursive;
+    font-size: 18px;
+	background: url(../image/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar a{
+	margin-left: 60px;
+}
+.navbar a:hover{
+	background-color:  rgb(75, 179, 118);
+}
+.container{
+    font-family: 'Caprasimo', cursive;
+}
+.container h6{
+    margin-top: 100px;
+}
+.btn_get_started{
+	font-family: 'Poppins',sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 2px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 56px;
+	margin: 12px;
+	border:2px solid rgb(3, 62, 5);
+	background-color: transparent;
+	color: rgb(10, 7, 0);
+	transition: 0.6s all;
+}
+.btn_get_started:hover{
+	background-color: rgb(75, 179, 118);
+	border:2px solid rgb(2, 54, 1);
+}
+
